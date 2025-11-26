@@ -1,0 +1,7 @@
+.fullscreen-img {
+    max-width: 400px; 
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: none;
+}

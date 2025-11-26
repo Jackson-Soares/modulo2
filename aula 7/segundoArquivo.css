@@ -1,0 +1,47 @@
+header{
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: orange;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: #ddd;
+    color: #f2f2f2;
+}
+
+.colum{
+    float: left;
+}
+
+.colum.side{
+    width: 25%;
+}
+
+colum.middle{
+    width: 50%;
+}
+
+@media screen and  (max-width: 600px){
+    .colum{
+        width: 100%;
+    }
+}
+
+.footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,27 @@
+img[src = "akiles.jpg"] {
+    border-radius: 50%;
+   
+}
+img {
+    height: 200px;
+    width: 200px;
+}
+body{
+    background-color: black;
+}
+
+a[href ^= "pasta1"]{
+    color: aliceblue;
+}
+
+a[href ^= "pasta2"]{
+    color: red;
+}
+
+a[href ^= "pasta3"]{
+    color: green;
+}
+
+a[href *= "A"]{
+    color: yellow;
+}
